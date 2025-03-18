@@ -1,5 +1,5 @@
 import './App.css';
-import InputDesign from './components/InputDesign';
+import HomePage from './components/HomePage';
 import Footer from './components/footer';
 import { useState } from 'react';
 
@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <InputDesign isSettingUp={isSettingUp} onStartClick={handleStartClick} />
+      <HomePage isSettingUp={isSettingUp} onStartClick={handleStartClick} />
       {!isSettingUp && <Footer />}
     </>
   );
