@@ -4,7 +4,7 @@ function SearchInput({ onStartClick }) {
   return (
  
     <div className="relative h-[110px] w-[720px] max-lg:w-[90%] max-md:w-[80%] max-sm:w-full max-sm:h-auto mb-41">
-      <div className="p-2.5 bg-gray-500 bg-opacity-20 rounded-[36px] size-full">
+      <div className="p-2.5 bg-gray-600 bg-opacity-20 rounded-[36px] size-full">
         <div className="flex items-center bg-white px-5 py-2 rounded-3xl shadow-lg size-full max-sm:flex-col max-sm:gap-4 max-sm:p-4 max-sm:py-6">
           <div className="flex items-center w-full max-sm:w-full">
             <div className="flex justify-center items-center w-12 h-12 rounded-2xl bg-gray-200 max-sm:w-10 max-sm:h-10">
